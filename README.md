@@ -1,5 +1,5 @@
 - [x] initial setup
-- [ ] routing
-- [ ] special files (loading, error, not-found)
+- [x] routing
+- [x] special files (loading, error, not-found)
 - [ ] create navbar (next/Link, next/navigation)
 - [ ]
