@@ -8,16 +8,27 @@ export default function Navbar() {
 
   return (
     <div className="w-screen h-[80px] bg-slate-100 flex justify-between items-center p-5">
-      <span>Logo</span>
+      <Link href="/" className={pathname === '/' ? 'text-green-600' : ''}>
+        Home
+      </Link>
       <div className="flex gap-5">
-        <Link href="/" className={pathname === '/' ? 'text-green-600' : ''}>
-          Home
-        </Link>
         <Link
-          href="/about"
+          href="/static"
           className={pathname === '/static' ? 'text-green-600' : ''}
         >
           Static
+        </Link>
+        <Link
+          href="/dynamic"
+          className={pathname === '/dynamic' ? 'text-green-600' : ''}
+        >
+          Dynamic
+        </Link>
+        <Link
+          href="/isr"
+          className={pathname === '/isr' ? 'text-green-600' : ''}
+        >
+          ISR
         </Link>
       </div>
     </div>

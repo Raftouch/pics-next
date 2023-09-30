@@ -5,12 +5,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Static Fetch - Pics Next App',
+  title: 'Dynamic Fetch - Pics Next App',
 }
 
-export default async function StaticPage() {
+export default async function DynamicPage() {
   const response = await fetch(
-    `https://api.unsplash.com/photos/random?client_id=${process.env.UNSPLASH_ACCESS_KEY}`
+    `https://api.unsplash.com/photos/random?client_id=${process.env.UNSPLASH_ACCESS_KEY}`,
+    { next: { revalidate: 0 } }
   )
   const image: Pic = await response.json()
 
@@ -19,11 +20,7 @@ export default async function StaticPage() {
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <Alert>
-        This page fetches and caches data at build time. Even though the
-        Unsplash API always returns a new image, we see the same image after
-        refreshing the page until we compile the project again.
-      </Alert>
+      <Alert>Dynamic Page</Alert>
       <Image
         src={image.urls.raw}
         width={width}
