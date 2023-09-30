@@ -1,7 +1,8 @@
 - [x] initial setup
-- [x] routing
-- [x] special files (loading, error, not-found)
+- [x] add routing
+- [x] add special files (loading, error, not-found)
 - [x] create navbar (next/Link, next/navigation)
+- [x] create model
 - [ ] fetch data
 - [ ] static rendering in server components
 - [ ] dynamic rendering in server components
