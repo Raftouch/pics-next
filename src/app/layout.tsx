@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <main className="w-screen h-screen flex items-center justify-center">
+        <main className="w-screen p-5 flex items-center justify-center">
           {children}
         </main>
       </body>

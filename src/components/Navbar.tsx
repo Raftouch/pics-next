@@ -15,9 +15,9 @@ export default function Navbar() {
         </Link>
         <Link
           href="/about"
-          className={pathname === '/about' ? 'text-green-600' : ''}
+          className={pathname === '/static' ? 'text-green-600' : ''}
         >
-          About
+          Static
         </Link>
       </div>
     </div>

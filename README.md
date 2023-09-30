@@ -3,8 +3,8 @@
 - [x] add special files (loading, error, not-found)
 - [x] create navbar (next/Link, next/navigation)
 - [x] create model
-- [ ] fetch data
-- [ ] static rendering in server components
-- [ ] dynamic rendering in server components
-- [ ] caching
+- [x] fetch data
+- [ ] rendering & caching in server components
+  - [x] static
+  - [ ] dynamic
 - [ ]
