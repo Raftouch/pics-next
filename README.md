@@ -8,5 +8,6 @@
   - [x] static
   - [x] dynamic
   - [x] incremental static regeneration (isr)
-- [ ] add dynamic route paths (by topic)
+- [x] add dynamic route paths (by topic)
+- [x] generateStaticParams()
 - [ ]
