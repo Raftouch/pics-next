@@ -6,5 +6,7 @@
 - [x] fetch data
 - [ ] rendering & caching in server components
   - [x] static
-  - [ ] dynamic
+  - [x] dynamic
+  - [x] incremental static regeneration (isr)
+- [ ] add dynamic route paths (by topic)
 - [ ]
