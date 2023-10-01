@@ -2,7 +2,7 @@
 - [x] add routing
 - [x] add special files (loading, error, not-found)
 - [x] create navbar (next/Link, next/navigation)
-- [x] create model
+- [x] create image model
 - [x] fetch data
 - [ ] rendering & caching in server components
   - [x] static
@@ -10,4 +10,6 @@
   - [x] incremental static regeneration (isr)
 - [x] add dynamic route paths (by topic)
 - [x] generateStaticParams()
+- [ ] generateMetadata()
+- [ ] create user model
 - [ ]
