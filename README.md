@@ -3,13 +3,15 @@
 - [x] add special files (loading, error, not-found)
 - [x] create navbar (next/Link, next/navigation)
 - [x] create image model
+- [x] create user model
 - [x] fetch data
-- [ ] rendering & caching in server components
-  - [x] static
-  - [x] dynamic
-  - [x] incremental static regeneration (isr)
-- [x] add dynamic route paths (by topic)
-- [x] generateStaticParams()
-- [ ] generateMetadata()
-- [ ] create user model
-- [ ]
+  - [x] SERVER
+    - [x] rendering & caching in server components
+      - [x] static
+      - [x] dynamic
+      - [x] incremental static regeneration (isr)
+    - [x] add dynamic route paths (by topic, by user)
+    - [x] generateStaticParams()
+    - [x] generateMetadata() / generate customized metadata
+  - [x] CLIENT
+    - [ ]

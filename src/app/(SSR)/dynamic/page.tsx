@@ -12,6 +12,7 @@ export default async function DynamicPage() {
   const response = await fetch(
     `https://api.unsplash.com/photos/random?client_id=${process.env.UNSPLASH_ACCESS_KEY}`,
     { next: { revalidate: 0 } }
+    // { cache: 'no-cache' } // or 'no-store'
   )
   const image: Pic = await response.json()
 
