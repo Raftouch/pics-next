@@ -14,4 +14,4 @@
     - [x] generateStaticParams()
     - [x] generateMetadata() / generate customized metadata
   - [x] CLIENT
-    - [ ]
+    - [ ] search

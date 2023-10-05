@@ -10,3 +10,7 @@ export interface Pic {
     raw: string
   }
 }
+
+export interface Search {
+  results: Pic[]
+}
